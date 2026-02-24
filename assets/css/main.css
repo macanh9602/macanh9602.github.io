@@ -2128,6 +2128,37 @@ section, summary, time, mark, audio, video {
 			font-size: 1.25em;
 			margin: 0.25em 0 0 0;
 		}
+
+		#main > .panel.intro .home-social {
+			display: flex;
+			gap: 0.6em;
+			list-style: none;
+			padding: 0;
+			margin: 1.2em 0 0 0;
+		}
+
+		#main > .panel.intro .home-social li {
+			margin: 0;
+			padding: 0;
+		}
+
+		#main > .panel.intro .home-social a {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			width: 2.1em;
+			height: 2.1em;
+			border-radius: 50%;
+			background: #111111;
+			color: #00b7ff;
+			text-decoration: none;
+			font-size: 0.9em;
+			line-height: 1;
+		}
+
+		#main > .panel.intro .home-social a:hover {
+			color: #ffffff;
+		}
 		
 		@media screen and (max-width: 980px) {
 			
@@ -2147,6 +2178,10 @@ section, summary, time, mark, audio, video {
 			#main > .panel.intro header {
 				padding: 4em;
 				text-align: center;
+			}
+
+			#main > .panel.intro .home-social {
+				justify-content: center;
 			}
 			
 		}
@@ -2173,6 +2208,12 @@ section, summary, time, mark, audio, video {
 			#main > .panel.intro header p {
 				font-size: 1em;
 				margin: 0.25em 0 0 0;
+			}
+
+			#main > .panel.intro .home-social a {
+				width: 2em;
+				height: 2em;
+				font-size: 0.85em;
 			}
 			
 		}
